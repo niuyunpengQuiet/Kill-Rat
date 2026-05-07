@@ -1,0 +1,52 @@
+export type AppLanguage = 'en' | 'zh';
+
+export const i18n = {
+  en: {
+    title: 'MAZE DEFENSE',
+    level: 'LEVEL',
+    points: 'POINTS',
+    tube: 'Tube',
+    bomb: 'Bomb',
+    pause: 'Pause',
+    levelComplete: 'LEVEL COMPLETE',
+    pts: 'PTS',
+    buyTube: 'Buy Tube',
+    buyBomb: 'Buy Bomb',
+    buyPause: 'Buy Time Pause',
+    buyRange: 'Buy Bomb Range +1 (Perm)',
+    nextLevel: 'NEXT LEVEL',
+    missionFailed: 'MISSION FAILED',
+    breachMsg: 'The rats breached the granary!',
+    levelReached: 'Level Reached: ',
+    restart: 'RESTART PROTOCOL',
+    desc1: 'Defend the central granary from invading rodents.',
+    desc2: 'Tubes: Block pathways (holds back 5 impacts)',
+    desc3: 'Bombs: Destroy rats and walls (cross area)',
+    desc4: 'Blue + Red Rats will breed when they meet!',
+    startBtn: 'INITIALIZE DEFENSE'
+  },
+  zh: {
+    title: '迷宫保卫战',
+    level: '当前关卡',
+    points: '积分',
+    tube: '筒子',
+    bomb: '炸弹',
+    pause: '时间暂停',
+    levelComplete: '关卡完成',
+    pts: '积分',
+    buyTube: '购买 筒子',
+    buyBomb: '购买 炸弹',
+    buyPause: '购买 暂停',
+    buyRange: '提升炸弹范围+1 (永久)',
+    nextLevel: '下一关',
+    missionFailed: '任务失败',
+    breachMsg: '老鼠吃掉了玉米！',
+    levelReached: '到达关卡: ',
+    restart: '重新开始',
+    desc1: '保卫中央粮仓，防止老鼠偷吃玉米。',
+    desc2: '筒子：封堵路口（可承受5次老鼠撞击）',
+    desc3: '炸弹：消灭老鼠，破坏墙体',
+    desc4: '蓝色(公)与红色(母)老鼠相遇会繁殖小老鼠！',
+    startBtn: '开始防御'
+  }
+};
